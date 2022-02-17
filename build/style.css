@@ -54,7 +54,7 @@ a {
 .card {
   max-width: 35rem;
   background-color: var(--dark-blue-400);
-  box-shadow: 0 10 30 rgba(0, 0, 0, 0.25);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
   border-radius: var(--radius-600);
   overflow: hidden;
 }
@@ -111,6 +111,7 @@ a {
 }
 
 .card__nft-info p {
+  font-weight: 300;
   letter-spacing: 0.0025rem;
   line-height: 2.6rem;
 }
@@ -150,6 +151,8 @@ a {
 .card__user-info img {
   width: 3.3rem;
   margin-right: var(--space--300);
+  border: 1px solid var(--white);
+  border-radius: 99rem;
 }
 
 .card__user-info .card__user-credit {
@@ -164,7 +167,6 @@ a {
 }
 
 .card__nft-info:hover h1,
-.card__nft-info:active h1,
 .card__user-info:hover .card__user-credit .emp {
   color: var(--cyan);
 }
