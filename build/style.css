@@ -138,6 +138,7 @@ a {
 }
 
 .card__eth-info span {
+  font-weight: 600;
   color: var(--cyan);
 }
 
